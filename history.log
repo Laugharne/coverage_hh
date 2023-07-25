@@ -1,0 +1,200 @@
+ 1829  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/truffle
+ 1830  grep . -R "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+ 1831  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/truffle
+ 1832  truffle migrate --reset
+ 1833  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+ 1834  truffle test
+ 1835  truffle compil
+ 1836  truffle exec scripts/FFJ_token.js 
+ 1837  truffle migrate --reset
+ 1838  truffle exec scripts/FFJ_token.js 
+ 1839  truffle exec scripts/FFJ_add_proposals.js 
+ 1840  truffle exec scripts/FFJ_see_proposals.js 
+ 1841  anvil --chain-id 1337 --port 8545
+ 1842  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/client
+ 1843  ll
+ 1844  npm start
+ 1845  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb
+ 1846  cd client/
+ 1847  ll
+ 1848  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+ 1849  cd ..
+ 1850  git remote add origin https://github.com/Laugharne/FFJb.git
+ 1851  git branch -M main
+ 1852  git push -u origin main
+ 1853  git add .
+ 1854  git status 
+ 1855  git commit -c "send"
+ 1856  ll
+ 1857  git status 
+ 1858  git commit -c "aa"
+ 1859  git commit -m "have proposal list, ; rendering ok"
+ 1860  git push -u origin main
+ 1861  ./backup.sh -c "proposalList + ProposalItem"
+ 1862  git push -u origin main
+ 1863  ./backup.sh -c "functional list of proposals; rendering ok"
+ 1864  git push -u origin main
+ 1865  truffle migrate --reset
+ 1866  truffle exec scripts/FFJ_token.js
+ 1867  truffle exec scripts/FFJ_send_tokens.js 
+ 1868  truffle exec scripts/FFJ_accounts.js 
+ 1869  truffle exec scripts/FFJ_add_proposals.js 
+ 1870  truffle exec scripts/FFJ_see_proposals.js 
+ 1871  truffle exec scripts/FFJ_jump_future_1.js
+ 1872  truffle exec scripts/FFJ_see_proposals.js 
+ 1873  truffle exec scripts/FFJ_voter2_for_P1.js
+ 1874  truffle exec scripts/FFJ_voter1_for_Ps
+ 1875  truffle exec scripts/FFJ_voter1_for_P1.js 
+ 1876  truffle exec scripts/FFJ_see_proposals.js 
+ 1877  truffle exec scripts/FFJ_set_proposal_state.js 
+ 1878  truffle exec scripts/FFJ_see_proposals.js 
+ 1879  truffle exec scripts/FFJ_set_proposal_state.js 
+ 1880  truffle exec scripts/FFJ_see_proposals.js 
+ 1881  truffle exec scripts/FFJ_set_proposal_state.js 
+ 1882  truffle exec scripts/FFJ_see_proposals.js 
+ 1883  truffle exec scripts/FFJ_set_proposal_state.js 
+ 1884  truffle exec scripts/sandbox.js 
+ 1885  truffle exec scripts/FFJ_set_proposal_state.js 
+ 1886  truffle exec scripts/FFJ_accounts.js 
+ 1887  anvil --chain-id 1337 --port 8545
+ 1888  npm start
+ 1889  ll
+ 1890  ./backup.sh -c "accordeon + badge; rendering ok"
+ 1891  git push -u origin main
+ 1892  ./backup.sh -c "add buttons for choices; enhance layout; rendering ok"
+ 1893  git push -u origin main
+ 1894  git status 
+ 1895  git add .
+ 1896  tig
+ 1897  git add .
+ 1898  ./backup.sh -c "create FFJ_set_proposal_state.js; enhance layout; connected more data props; rendering ok"
+ 1899  git push -u origin main
+ 1900  ./backup.sh -c "get correct for FFJ_add_proposals.js; rendering ok"
+ 1901  git add .
+ 1902  ./backup.sh -c "code cleaning; rendering ok"
+ 1903  git push -u origin main
+ 1904  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/truffle
+ 1905  truffle compil
+ 1906  truffle migrate --reset
+ 1907  truffle exec scripts/FFJ_send_tokens.js
+ 1908  truffle exec scripts/FFJ_token.js 
+ 1909  truffle exec scripts/FFJ_accounts.js 
+ 1910  truffle exec scripts/FFJ_add_proposals.js 
+ 1911  truffle exec scripts/FFJ_see_proposals.js 
+ 1912  truffle exec scripts/FFJ_jump_future_1.js 
+ 1913  truffle exec scripts/FFJ_see_proposals.js 
+ 1914  truffle exec scripts/FFJ_voter2_for_P1.js 
+ 1915  truffle exec scripts/FFJ_see_proposals.js 
+ 1916  truffle exec scripts/FFJ_voter1_for_P1.js 
+ 1917  truffle exec scripts/FFJ_see_proposals.js 
+ 1918  truffle __version
+ 1919  truffle --version
+ 1920  truffle exec scripts/FFJ_see_proposals.js 
+ 1921  truffle exec scripts/FFJ_accounts.js 
+ 1922  truffle exec scripts/FFJ_see_proposals.js 
+ 1923  truffle exec scripts/FFJ_accounts.js 
+ 1924  truffle test
+ 1925  truffle test test/Test.js
+ 1926  anvil --chain-id 1337 --port 8545
+ 1927  ganache
+ 1928  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/client
+ 1929  npm start
+ 1930  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb
+ 1931  ./backup.sh -c "cablage boutons avec indexes propos+choice; toast; rendering ok"
+ 1932  git push -u origin main
+ 1933  git add .
+ 1934  ./backup.sh -c "send to SC ok; refactoring sol + test about role access; rendering ok"
+ 1935  git push -u origin main
+ 1936  htop
+ 1937  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/truffle
+ 1938  truffle migrate --reset
+ 1939  truffle exec scripts/FFJ_send_tokens.js
+ 1940  truffle exec scripts/FFJ_accounts.js
+ 1941  truffle exec scripts/FFJ_add_proposals.js
+ 1942  truffle exec scripts/FFJ_see_proposals.js
+ 1943  truffle exec scripts/FFJ_jump_future_1.js
+ 1944  truffle exec scripts/FFJ_see_proposals.js
+ 1945  truffle migrate --reset
+ 1946  truffle exec scripts/FFJ_accounts.js
+ 1947  truffle exec scripts/FFJ_send_tokens.js
+ 1948  truffle exec scripts/FFJ_accounts.js
+ 1949  truffle exec scripts/FFJ_add_proposals.js
+ 1950  truffle exec scripts/FFJ_see_proposals.js
+ 1951  truffle exec scripts/FFJ_jump_future_1.js
+ 1952  truffle exec scripts/FFJ_see_proposals.js
+ 1953  truffle exec scripts/FFJ_voter2_for_P1.js 
+ 1954  truffle exec scripts/FFJ_see_proposals.js
+ 1955  anvil --chain-id 1337 --port 8545
+ 1956  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/client
+ 1957  npm start
+ 1958  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb
+ 1959  truffle compil
+ 1960  truffle test/Test.js 
+ 1961  truffle test
+ 1962  truffle compil
+ 1963  truffle test
+ 1964  truffle compil
+ 1965  truffle test
+ 1966  truffle compil
+ 1967  truffle test
+ 1968  ganache
+ 1969  ll
+ 1970  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/client
+ 1971  npm run
+ 1972  npm start
+ 1973  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb
+ 1974  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/truffle
+ 1975  truffle test
+ 1976  truffle migrate --reset
+ 1977  truffle exec scripts/FFJ_token.js 
+ 1978  truffle exec scripts/FFJ_accounts.js
+ 1979  truffle exec scripts/FFJ_send_tokens.js
+ 1980  truffle exec scripts/FFJ_accounts.js
+ 1981  truffle exec scripts/FFJ_add_proposals.js
+ 1982  truffle exec scripts/FFJ_see_proposals.js
+ 1983  truffle exec scripts/FFJ_jump_future_1.js
+ 1984  truffle exec scripts/FFJ_see_proposals.js
+ 1985  truffle exec scripts/FFJ_voter1_for_P1.js 
+ 1986  truffle exec scripts/FFJ_see_proposals.js
+ 1987  anvil --chain-id 1337 --port 8545
+ 1988  ganache
+ 1989  anvil --chain-id 1337 --port 8545
+ 1990  cd /media/franck/c5ec48af-c94e-4032-9dc9-c0f278bd4212/franck/workspace/learning/alyra/projet_final/FFJb/client
+ 1991  npm start
+ 1992  ll
+ 1993  ./backup.sh -c "code cleaning; rendering ok""
+ 1994  ./backup.sh -c "code cleaning; rendering ok"
+ 1995  git add .
+ 1996  git status 
+ 1997  git add .
+ 1998  ./backup.sh -c "code cleaning; demo seems ok; rendering ok"
+ 1999  git push -u origin main
+ 2000  php speeddial.php 
+ 2001  ll
+ 2002  cd workspace/learning/alyra/
+ 2003  ll
+ 2004  cd projet_final/
+ 2005  ll
+ 2006  mkdir corage_hh
+ 2007  cd corage_hh/
+ 2008  npx hardhat
+ 2009  npx hardhat compile
+ 2010  npm i @nomiclabs/hardhat-truffle5
+ 2011  npm i @openzeppelin/test-helpers
+ 2012  ll
+ 2013  kate hardhat.config.js 
+ 2014  npx hardhat test
+ 2015  npx hardhat coverage
+ 2016  tree --gitignore
+ 2017  batcat scripts/deploy.js 
+ 2018  tree --gitignore
+ 2019  dolphin .
+ 2020  npx hardhat test
+ 2021  npm install @openzeppelin/contracts
+ 2022  npx hardhat test
+ 2023  batcat scripts/deploy.js 
+ 2024  npx hardhat compil
+ 2025  npx hardhat compile
+ 2026  npx hardhat test
+ 2027  npx hardhat coverage
+ 2028  bcli
