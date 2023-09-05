@@ -14,6 +14,46 @@ npx hardhat run scripts/deploy.js
 
 ----
 
+## Carry out a “*test coverage*” of a **Truffle** project with **HardHat**.
+
+### Install
+```shell
+npm i @nomiclabs/hardhat-truffle5
+npm i @openzeppelin/test-helpers
+```
+
+### `hardhat.config.js`
+```javascript
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+require("@nomiclabs/hardhat-truffle5"); // pour faire des tests truffle sous hardhat
+// require("@nomiclabs/hardhat-ethers");
+const { INFURIA_ID, PRIVATE_KEY } = process.env;
+
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.20",
+  networks: {
+    hardhat_localhost: {
+      url: "http://127.0.0.1:8545/",
+      chainId: 31337,
+    },
+    // It works !
+    goerli_infu: {
+      url: `https://goerli.infura.io/v3/${INFURIA_ID}`,
+      accounts:  [`0x${PRIVATE_KEY}`],
+      network_id: 5,
+    },
+  },
+};
+```
+### Execution
+```shell
+npx hardhat coverage
+```
+
+### Coverage result
+
 ```javascript
 
 Version
